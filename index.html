@@ -4,27 +4,205 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/style.css">
+	<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
 	<title>bicycle</title>
 </head>
 <body>
-	<div class="wrapper">
-		<header class="headeer".
-			<nav class="navigation conteiner">
-			
-			</nav>
+<div class="wrapper">
+	<header class="header">
+		<div class="container">
+			<nav class="navigation">
+				<a href="/" class="logo-mobile">
+					<img src="./images/logo.png" alt="Bicycle">
+				</a>
+				<div class="navigation-wrapper">
+					<ul class="left-navigation menu">
+						<li><a href="#about">About us</li>
+						<li><a href="#work">Work</li>
+					</ul>
+					<a href="/" class="logo">
+						<img src="./images/logo.png" alt="Bicycle">
+					</a>
+					<ul class="right-navigation menu">
+						<li><a href="#shop">Shop</li>
+						<li><a href="#contact">Contact</li>
+					</ul>
+					<span class="close-menu"></span>
+	           	 </div>
+				 <span class="menu-button">
+                    <img src="./images/menu.png" alt="menu icon">
+                </span>
+            </nav>
+        </div>
 			<div class="banner"></div>
-		</header>
-		<div class="introduction">
-			<img src="./images/logo.png" alt="logo">
-			<h3>A NEW GENERATION OF VINTAGE BIKE</h3>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-			It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+	</header>
+	<main>
+		<section id="about">
+			<div class="container">
+				<div class="about-logo text-center">
+					<img src="./images/about_logo.png" alt="logo">
+				</div>
+			<h3 class="text-center text-18">A NEW GENERATION OF VINTAGE BIKE</h3>
+			<p class="about-text text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+				It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 		</div>
+		</section>
+			
+		<section id="work">
+			<div class="container">
+				<div class="row">
+					<div class="col-66 centered bg-image" style="background-image: url('./images/work1.jpg')">
+                        <img src="./images/work1-icon.png" alt=" work1-icon">
+                    </div>
+                    <div class="col-33">
+                        <div class="col-text">
+                            <img src="./images/work2-icon.png" alt="work2-icon">
+                            <h3 class="text-18">Vintage oliva</h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and 
+                                typesetting industry. Lorem Ipsum has been the 
+                                industry's standard dummy text ever since the 1500s. 
+                                When an unknown printer took a galley of type and 
+                                scrambled it to make a type specimen book. It has 
+                                survived.
+                            </p>
+                        </div>
+                        <div class="col-100-img">
+                            <img src="./images/work2.jpg" alt="work2">
+                        </div>
+                    </div>
+                </div>
+
+				<div class="row">
+					<div class="col-33">
+						<div class="col-text">
+                            <img src="./images/work4-icon.png" alt="work4-icon">
+                            <h3 class="text-18">La Boriosa</h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and 
+                                typesetting industry. Lorem Ipsum has been the 
+                                industry's standard dummy text ever since the 1500s. 
+                                When an unknown printer took a galley of type and 
+                                scrambled it to make a type specimen book. It has 
+                                survived.
+                            </p>
+                        </div>
+                        <div class="col-100-img">
+                            <img src="./images/work4.jpg" alt="work4">
+                        </div>
+					</div>
+
+					<div class="col-66 centered bg-image" style="background-image: url('./images/work3.jpg')">
+						<img src="./images/work3-icon.png" alt=" work1-icon">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-33 centered bg-image" style="background-image: url('./images/work5.jpg')">
+						<img src="./images/work5-icon.png" alt=" work5-icon">
+					</div>
+
+					<div class="col-33">
+						<div class="col-text">
+                            <img src="./images/work6-icon.png" alt="work4-icon">
+                            <h3 class="text-18">retrò Bike - M. Hulot</h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and 
+                                typesetting industry. Lorem Ipsum has been the 
+                                industry's standard dummy text ever since the 1500s. 
+                                When an unknown printer took a galley of type and 
+                                scrambled it to make a type specimen book. It has 
+                                survived.
+                            </p>
+                        </div>
+                        <div class="col-100-img">
+                            <img src="./images/work6.jpg" alt="work6">
+                        </div>
+					</div>
+
+					<div class="col-33" style="background-image: url('./images/work7.jpg')"></div>
+
+				</div>
+			</div>
+
+			<div class="reviews">
+                <div class="container">
+                    <div class="swiper swiper-reviews">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./images/twitter.png" alt="twitter">
+                                <h3>AOD New York  @aod  <span>/  35 min</span></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/twitter.png" alt="twitter">
+                                <h3>Lorem ipsum dolor  @aod  <span>/  21 min</span></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/twitter.png" alt="twitter">
+                                <h3>Lorem ipsum sit amet <span>/  8 min</span></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+		</section>
+
+		<section id="shop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-33">
+                        <div class="row">
+                            <a href="#" class="col-50" style="background-image: url('./images/shop1.jpg')"></a>
+                            <a href="#" class="col-50" style="background-image: url('./images/shop2.jpg')"></a>
+                        </div>
+                        <div class="row">
+                            <a href="#" class="col-100" style="background-image: url('./images/shop3.jpg')"></a>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="row">
+                            <a href="#" class="col-50 col-fullheight" style="background-image: url('./images/shop4.jpg')"></a>
+                            <a href="#" class="col-50 col-fullheight" style="background-image: url('./images/shop5.jpg')"></a>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="row">
+                            <a href="#" class="col-100" style="background-image: url('./images/shop6.jpg')"></a>
+                        </div>
+                        <div class="row">
+                            <a href="#" class="col-50" style="background-image: url('./images/shop7.jpg')"></a>
+                            <a href="#" class="col-50" style="background-image: url('./images/shop8.jpg')"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+		<section id="Contact">
+			<div class="container">
+
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+
+		</div>
+	</footer>
 	</div>
-
-
-<!--<script src="./js/jquery.min.js"></script>-->
+<script src="./js/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <script src="./js/scripts.js"></script>
 </body>
 </html>
